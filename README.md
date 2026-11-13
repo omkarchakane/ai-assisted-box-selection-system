@@ -28,39 +28,52 @@ product dimensions, weight capacity, and box cost.
 - Bootstrap
 - Git and GitHub
 
+
 ## Installation
 
-1. Clone the repository.
+### 1. Clone the repository
 
-   git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/omkarchakane/ai-assisted-box-selection-system.git
 
-2. Navigate into the project.
+### 2. Open the project folder
 
-   cd box-selection-system
+cd ai-assisted-box-selection-system
 
-3. Create a virtual environment.
+### 3. Create virtual environment
 
-   python -m venv venv
+python -m venv venv
 
-4. Activate the environment.
+### 4. Activate virtual environment
 
-   venv\Scripts\activate
+Windows:
 
-5. Install dependencies.
+venv\Scripts\activate
 
-   pip install -r requirements.txt
+### 5. Install dependencies
 
-6. Apply migrations.
+pip install -r requirements.txt
 
-   python manage.py migrate
+### 6. Set Django secret key
 
-7. Create an admin account.
+PowerShell:
 
-   python manage.py createsuperuser
+$env:DJANGO_SECRET_KEY="zyt$47dd-!#on%c3@oad_s0iymjurtz-jw*^7*fy78-^ets@5uv"
 
-8. Run the application.
+### 7. Apply database migrations
 
-   python manage.py runserver
+python manage.py migrate
+
+### 8. Create admin account
+
+python manage.py createsuperuser
+
+### 9. Start the server
+
+python manage.py runserver
+
+### 10. Run tests
+
+python manage.py test
 
 ## Access
 

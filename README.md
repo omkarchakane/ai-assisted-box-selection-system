@@ -29,7 +29,77 @@ product dimensions, weight capacity, and box cost.
 - Git and GitHub
 
 
+
 ## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/omkarchakane/ai-assisted-box-selection-system.git
+cd ai-assisted-box-selection-system
+```
+
+### 2. Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+### 3. Activate the environment
+
+Windows PowerShell:
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+### 4. Install dependencies
+
+```bash
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### 5. Configure Django secret key
+
+Generate a new key:
+
+```bash
+python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
+```
+
+Set it in PowerShell:
+
+```powershell
+$env:DJANGO_SECRET_KEY="YOUR_GENERATED_KEY"
+```
+
+### 6. Apply migrations
+
+```bash
+python manage.py migrate
+```
+
+### 7. Create admin account
+
+```bash
+python manage.py createsuperuser
+```
+
+### 8. Run the application
+
+```bash
+python manage.py runserver
+```
+
+Open http://127.0.0.1:8000/admin/
+
+### 9. Run tests
+
+```bash
+python manage.py test
+```
+    
 
 ### 1. Clone the repository
 
@@ -57,7 +127,7 @@ pip install -r requirements.txt
 
 PowerShell:
 
-$env:DJANGO_SECRET_KEY="zyt$47dd-!#on%c3@oad_s0iymjurtz-jw*^7*fy78-^ets@5uv"
+$env:DJANGO_SECRET_KEY=
 
 ### 7. Apply database migrations
 

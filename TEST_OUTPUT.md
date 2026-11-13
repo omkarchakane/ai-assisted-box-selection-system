@@ -12,7 +12,15 @@ python manage.py test
 
 ## Terminal Output
 
-Paste your actual terminal output here.
+Found 5 test(s).
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.032s
+
+OK
+Destroying test database for alias 'default'...
 
 ## Result
 

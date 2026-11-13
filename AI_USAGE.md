@@ -1,74 +1,39 @@
+### 1. Understanding the assignment
 
-# AI Usage Documentation
+"I got this Django assignment to build a box selection system. Can you help me understand exactly what I need to build and where should I start?"
 
-## 1. AI Tools Used
+### 2. Creating Django models
 
-- ChatGPT: Used for guidance and understanding
-  Django concepts and recommendation logic.
-- VS Code: Used for development and debugging.
+"I'm planning to create models for products, orders and boxes. What fields should I add to each model? Please explain with a simple example."
 
-## 2. Prompts Used
+### 3. Connecting products and orders
 
-### 1. Understanding the project
-"I have a Django assignment to build a box selection system. First help me understand the requirements and explain how I should approach this project."
+"I'm a little confused about how to connect products with orders in Django. Can you explain which relationship would be better for this project and how to use it?"
 
-### 2. Planning Django models
-"How should I create models for products, orders and boxes? Explain which fields I need and how these models should be connected."
+### 4. Calculating dimensions and weight
 
-### 3. Understanding model relationships
-"I want to connect products with orders in Django. Which relationship should I use and why? Explain with a simple example."
+"How should I calculate the total weight when an order contains multiple products? Also, how can I check if the products will fit inside a particular box?"
 
-### 4. Product dimensions and weight
-"How can I calculate the total weight of all products in an order? Also explain how I can check whether products fit inside a shipping box."
+### 5. Box selection logic
 
-### 5. Box recommendation logic
-"Help me understand the logic for selecting the best shipping box based on product dimensions, total weight and box cost. Explain it step by step."
+"I need to select the best shipping box for an order. How can I compare box dimensions, weight capacity and cost to get the right recommendation? Please explain the logic step by step."
 
-### 6. Django views and backend
-"How can I get order details from the database and pass the product and box information to a Django template?"
+### 6. Working with Django views
 
-### 7. Debugging errors
-"I'm getting an error in my Django application. Help me understand what is causing it and how I can fix it. I will share the error message and related code."
+"Now I want to show the order details and recommended box on my webpage. How can I get this data from Django models and display it in an HTML template?"
 
-### 8. Code improvement
-"Please review this Django code and tell me if there is any issue or if I can make it simpler. I want to understand the changes before applying them."
+### 7. Fixing errors
 
-### 9. Testing the application
-"Suggest some test cases for my box recommendation system, including normal orders, heavy products and cases where no available box is suitable."
+"I'm facing an error in my Django project. I'll share the error message and code. Can you help me understand why it's happening and how to fix it?"
 
-### 10. Project documentation
-"Help me understand what information I should include in my README file, including project setup, dependencies and how to run the application."
+### 8. Reviewing my code
 
-## 3. Accepted AI Suggestions
+"I have written this part of the code. Can you check it and tell me if anything is wrong or can be improved? Please explain the changes so I can understand them."
 
-Mention the suggestions you actually used.
+### 9. Testing the project
 
-Example:
-- Django model structure.
-- Basic dimension comparison approach.
-- Test case ideas.
+"What different situations should I test in this box selection system? I want to check normal orders, heavy products, different box sizes and orders where no suitable box is available."
 
-## 4. Rejected or Modified Suggestions
+### 10. Preparing project documentation
 
-Mention suggestions that you changed or rejected,
-and explain why.
-
-## 5. Mistakes Identified
-
-Document actual errors you discovered during
-implementation and how you corrected them.
-
-## 6. Verification Steps
-
-- Tested the recommendation algorithm.
-- Checked product dimensions.
-- Checked maximum weight capacity.
-- Verified cheapest suitable box selection.
-- Executed Django automated tests.
-- Manually tested the application using Django Admin.
-
-## 7. Human Review
-
-Describe which implementation decisions,
-modifications and verifications you personally
-performed.
+"I have almost completed my project. Can you guide me on what to include in README.md, such as installation steps, project setup, requirements and instructions to run the application?"

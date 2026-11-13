@@ -71,7 +71,7 @@ python -c "from django.core.management.utils import get_random_secret_key; print
 Set it in PowerShell:
 
 ```powershell
-$env:DJANGO_SECRET_KEY="YOUR_GENERATED_KEY"
+$env:DJANGO_SECRET_KEY="PASTE_YOUR_NEW_SECRET_KEY"
 ```
 
 ### 6. Apply migrations
@@ -127,7 +127,7 @@ pip install -r requirements.txt
 
 PowerShell:
 
-$env:DJANGO_SECRET_KEY=
+$env:DJANGO_SECRET_KEY="PASTE_YOUR_NEW_SECRET_KEY"
 
 ### 7. Apply database migrations
 
